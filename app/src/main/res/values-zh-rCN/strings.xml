@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">大金金的app</string>
+    <string name="app_name">温度转换器</string>
+    <string name="button">转化为华氏温度</string>
     <string name="hello">生日快乐！</string>
     <string name="action_settings">设置</string>
-    <string name="from">小仙女</string>
+    <string name="btn">登陆</string>
+    <string name="from">汤姆</string>
+    <string name="result">结果是</string>
 </resources>
