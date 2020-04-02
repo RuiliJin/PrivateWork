@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">大金金的app</string>
+    <string name="hello">生日快乐！</string>
+    <string name="action_settings">设置</string>
+    <string name="from">小仙女</string>
+</resources>
