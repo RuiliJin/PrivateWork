@@ -16,32 +16,36 @@ public class SecondActivity extends AppCompatActivity {
         scoreA = (TextView) findViewById(R.id.scoreA);
         scoreB = (TextView) findViewById(R.id.scoreB);
     }
-    public void btn_A1(View btn){
-        showScoreA(1);
+    public void btn_1(View btn){
+        if(btn.getId()==R.id.btn_A1){
+            showScoreA(1);
+        }else{
+            showScoreB(1);
+        }
+
     }
-    public void btn_A2(View btn){
-        showScoreA(2);
+    public void btn_2(View btn){
+        if(btn.getId()==R.id.btn_A2){
+            showScoreA(2);
+        }else{
+            showScoreB(2);
+        }
     }
-    public void btn_A3(View btn){
-        showScoreA(3);
+    public void btn_3(View btn){
+        if(btn.getId()==R.id.btn_A3){
+            showScoreA(3);
+        }else{
+            showScoreB(3);
+        }
     }
     public void btn_r(View btn){
-        scoreA.setText(""+0);
-        scoreB.setText(""+0);
+        scoreA.setText("0");
+        scoreB.setText("0");
     }
     public void showScoreA (int addA) {
         String oldScoreA = (String) scoreA.getText();
         int newScoreA = Integer.parseInt(oldScoreA) + addA;
         scoreA.setText("" + newScoreA);
-    }
-    public void btn_B1(View btn){
-        showScoreB(1);
-    }
-    public void btn_B2(View btn){
-        showScoreB(2);
-    }
-    public void btn_B3(View btn){
-        showScoreB(3);
     }
     public void showScoreB(int addB) {
         String oldScoreB = (String) scoreB.getText();

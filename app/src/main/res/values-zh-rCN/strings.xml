@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">记分器</string>
+    <string name="app_name">转换器</string>
     <string name="button">转化为华氏温度</string>
     <string name="hello">生日快乐！</string>
     <string name="action_settings">设置</string>
