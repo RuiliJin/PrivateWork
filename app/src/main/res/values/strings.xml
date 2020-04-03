@@ -6,4 +6,10 @@
     <string name="action_settings">Setings</string>
     <string name="from">YOUR TOM</string>
     <string name="result">result</string>
+    <string name="input">input</string>
+    <string name="rbtn">reset</string>
+    <string name="btn_3">+3 points</string>
+    <string name="btn_2">+2 points</string>
+    <string name="btn_1">+1 point</string>
+
 </resources>

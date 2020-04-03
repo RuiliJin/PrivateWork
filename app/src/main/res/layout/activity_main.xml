@@ -27,19 +27,19 @@
         android:hint="请输入摄氏温度"
         android:inputType="number" />
 
+    <TextView
+        android:id="@+id/showText"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:cursorVisible="false"
+        android:gravity="center"
+        android:text="@string/result"
+        android:textSize="36sp" />
+
     <Button
         android:id="@+id/btn1"
         android:layout_width="match_parent"
         android:layout_height="58dp"
         android:text="@string/button" />
-
-    <TextView
-        android:id="@+id/showText"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:cursorVisible="false"
-        android:gravity="center"
-        android:text="@string/result"
-        android:textSize="36sp" />
 
 </LinearLayout>
