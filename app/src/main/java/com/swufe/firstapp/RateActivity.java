@@ -169,7 +169,7 @@ public class RateActivity extends AppCompatActivity implements Runnable {
             openConfig();
         }else if (item.getItemId() == R.id.open_list){
             //打开列表窗口
-            Intent list = new Intent(this, RateListActivity.class);
+            Intent list = new Intent(this, MyList2Activity.class);
             startActivity(list);
         }
         return super.onOptionsItemSelected(item);
@@ -251,11 +251,11 @@ public class RateActivity extends AppCompatActivity implements Runnable {
                 i++;
 
             }*/
-            Element table = tables.get(0);
+            Element table = tables.get(1);
             //Log.i(TAG,"run:table[0]="+table);
             //获取td中的数据
             Elements tds = table.getElementsByTag("td");
-            for (int i = 0; i < tds.size(); i += 6) {
+            for (int i = 0; i < tds.size(); i += 8) {
                 Element td1 = tds.get(i);
                 Log.i(TAG, "run:text=" + td1.text());
                 Element td2 = tds.get(i + 5);
@@ -267,7 +267,7 @@ public class RateActivity extends AppCompatActivity implements Runnable {
                     Log.i(TAG, "putFloat:dollar-rate=" + 100f / Float.parseFloat(val));
                 } else if ("欧元".equals(str1)) {
                     bundle.putFloat("euro-rate", 100f / Float.parseFloat(val));
-                } else if ("韩元".equals(str1)) {
+                } else if ("韩国元".equals(str1)) {
                     bundle.putFloat("won-rate", 100f / Float.parseFloat(val));
                 }
             }
