@@ -18,5 +18,7 @@
     <string name="btn_opencfg_label">config</string>
     <string name="btn_save_label">save</string>
     <string name="label_open_list">OpenList</string>
+    <string name="app_aplic">search</string>
+    <string name="hint_key">input key word</string>
 
 </resources>
